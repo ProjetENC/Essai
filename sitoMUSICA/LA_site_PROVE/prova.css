@@ -1,0 +1,358 @@
+
+
+
+body{
+     
+    background-image:url("photo_fond.jpg");
+    background-size:1400px;
+    height:1200px;
+    background-position:center
+    }
+
+a {
+ text-decoration:none; 
+ color:inherit
+}
+
+ul {
+    list-style-type:none;
+    
+}
+    
+
+#conteneur{
+    width:90%;
+    margin:40px auto 40px auto;
+    background-color:#413D3D;
+    border-radius:10px;
+    padding-bottom:5px
+        }
+
+#header{
+width:100%;
+height:150px;
+background-color:#413D3D;
+padding-top:2%;
+border-radius:10px
+}
+
+
+@font-face{
+    font-family:amatic;
+    src: url('Amatic-Bold.ttf') format('truetype')
+    }
+
+
+#titre{ 
+    position:absolute;
+    margin-left:9%;
+    top:26%;
+    font-style:italic;
+    font-family:amatic, "bradley hand ITC", "trebuchet ms", fantasy;
+    font-size:4em;
+    font-weight:normal;
+    text-shadow: 1px 1px 1px #DCDCDC;
+    letter-spacing:10px
+}
+ 
+    
+
+
+
+
+#menu {
+    text-align:right;
+    margin-right:10%;
+    margin-top:3%;
+    list-style-type:none;                    
+    font-family:"trebuchet ms";
+    font-weight:bold;
+    color:#DCDCDC;
+    letter-spacing:1px
+}
+
+#menu ul {
+    padding:5px
+}
+
+#menu li {
+    display:inline-block;               /*pour afficher en horizontal comme si c'etaient des elements inline*/
+    text-align: center;
+    padding-right:15px;
+    padding-left:15px;
+    padding-top:4px;
+    padding-bottom:4px;
+    color:#DCDCDC;
+    font-size:0.9em
+}
+
+
+
+#menu ul {
+    position:absolute;                         /*pour que les elements ne bougent pas par rapport au mouvement des autres*/         
+    left:-999em                                /*pour ne pas afficher*/
+}
+
+#menu li:hover ul {
+    left:auto                                              /*pour afficher*/
+}
+
+
+#menu li ul li{                                     /*style du sous-menu*/
+    display:inline-block;
+    background:url(fondliste.jpg) bottom;
+    width:120px;
+    padding:10px;
+    color:#DCDCDC;
+    font-size:0.9em
+}
+
+#menu li ul li{                                     /*ajouster  ?!?!?!? la position*/
+    position:relative;
+    right:33%
+}
+
+#menu li ul li ul{
+    position:absolute;                              /*ne pas afficher: autre modalité*/
+    display:none
+}
+
+#menu li ul li:hover ul{                            /*afficher au passage de la souris*/
+    display:block;
+    z-index:1000;                                    /*afficher le menu en premier plan (par rapport au titre)*/
+    margin:10px
+}
+
+#menu li ul li ul li{                                     /*style du sous-sous-menu*/
+    background:url(fondliste.jpg) bottom;
+    width:120px;
+    padding:10px;
+    color:#DCDCDC;
+    border-bottom:1px solid #DCDCDC;
+    font-size:inherit    
+}
+
+#menu li ul li ul li{                               /*ajouster  ?!?!?!? la position*/
+    position:relative;
+    right:18%
+}
+
+
+
+
+
+
+#content{
+    width:80%;
+    margin: 150px 10% 50px 10%;
+    background-color:white;
+    border-radius:10px;
+    font-family:"trebuchet MS","gill sans mt",arial,georgia;
+    font-size:0.95em;
+    text-align:justify
+           }
+ 
+ 
+#content_Disco {
+    height:1800px;
+    width:80%;
+    margin: 150px 10% 50px 10%;
+    background-color:white;
+    border-radius:10px;
+    font-family:"trebuchet MS","gill sans mt",arial,georgia;
+    font-size:0.95em;
+    text-align:justify
+}            
+ 
+ 
+table
+{                                         /* tableau */
+    width:100%
+}
+
+td{                                         /* tableau */
+    width:50%;
+    padding:2%;
+    vertical-align:top;
+    border:1px black;
+    font-family:"trebuchet MS","gill sans mt",arial,georgia;
+    font-size:0.9em;
+    text-align:justify
+}
+ 
+
+img{                                        /* images dans le tableau */
+    float:left;
+    margin:10px
+            }
+            
+.cell_1 {
+    width:60%;
+    padding-left:65px  
+             } 
+
+
+.cell_2  {
+    width:40%
+             } 
+             
+.titre_page {
+    text-align:center;
+    font-style:italic;
+    font-family:"trebuchet ms", "bradley hand ITC", fantasy;
+    font-size:3em;
+    font-weight:200             
+        } 
+
+.titre_page2 {
+    position:absolute;
+    padding-left:50%;
+    margin: 30px auto 30px auto; 
+    font-style:italic;
+    font-family:"trebuchet ms", "bradley hand ITC", fantasy;
+    font-size:2em;
+    font-weight:200;
+    text-shadow:2px 2px 1px #DCDCDC
+        } 
+ 
+
+.text{                                        
+    padding:20px 80px 20px 80px;
+    font-family:"trebuchet MS","gill sans mt",arial,georgia;
+    font-size:0.9em;
+    text-align:justify;
+    line-height:1.5
+            } 
+            
+.text a {
+    text-decoration:underline
+}            
+
+#text_Disco {                       
+    padding:20px 180px 20px 170px;
+    font-family:"trebuchet MS","gill sans mt",arial,georgia;
+    font-size:0.8em;
+    text-align:justify
+}
+
+
+.p1{
+    text-align:justify;
+    width:90%
+    }
+
+.p2{
+    text-align:justify;
+    width:90%;
+    position:relative;
+    left:10%
+    }
+    
+#footer{
+    padding:20px;
+    position:relative;
+    left:40%;
+    font-family:"trebuchet MS","gill sans mt",arial,georgia;
+    font-size:0.8em    
+}    
+
+
+#COAD {
+    margin-left:70px
+}
+
+#APTC {
+    margin-left:120px
+}
+
+.accordion {
+    width:70%;
+    height:240px;
+    margin:10px 20px auto;
+    padding:10px;
+    font-family:"trebuchet ms";
+    font-size:small
+    } 
+
+.accordion section{   
+          float:left;  
+          background:#413D3D;  
+          margin:3px;   
+    }
+
+  
+    .accordion section p {   
+      display:none;   
+}
+     
+   
+    .accordion section:target {   
+      background:white;   
+      padding:10px;  
+} 
+ 
+ .accordion section:target h2 a{   
+      color:#CC0066;   
+      padding:0;  
+}  
+
+
+  
+.accordion section:target p {  
+      display:block;  
+}
+
+
+.accordion section h2 a{  
+      padding:8px 10px;  
+      display:block; 
+      color:#DCDCDC; 
+      }
+
+.horizontal section{   
+      width:7%;   
+      height:250px;   
+      -moz-transition: width 0.2s ease-out;   
+      -webkit-transition:width 0.2s ease-out;  
+      -o-transition:width 0.2s ease-out
+} 
+
+
+.horizontal section:after{  
+      top:140px;  
+      left:15px;  
+}
+
+
+.horizontal section h2 {   
+     -webkit-transform:rotate(90deg);  
+     -moz-transform:rotate(90deg);  
+     -o-transform: rotate(90deg);
+     width:240px;   
+     position:relative;   
+     left:-100px;   
+     top:85px;  
+} 
+
+.horizontal :target{   
+     width:73%;  
+     height:230px;   
+}  
+
+.horizontal :target h2{   
+     top:0px;  
+     left:0;  
+     -webkit-transform:rotate(0deg);  
+     -moz-transform:rotate(0deg);  
+     -o-transform: rotate(0deg) 
+}
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+        

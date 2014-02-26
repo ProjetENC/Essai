@@ -1,0 +1,22 @@
+Tant attendu, voici le sujet de devoir (parlottes et negociations a ce sujet a la fin du dernier cours).  
+
+Quelques remarques : 
+- Vous n'etes pas en mesure de faire la partie CSS tant que nous n'avons pas eu le dernier cours, 
+en tout cas pour le positionnement des elements (dans le support de cours il a ce qu'il faut pour mettre 
+un peu en forme le texte pour les plus presses). 
+
+- Je vous rappelle que dans le cadre des cours sur les 
+technologies XML, nous faisons les bases d'XHTML, pas d'HTML5, et que par consequent, nous apprenons 
+les bases de CSS en commencant par les regles de base qui sont celles de CSS2, (CSS3 n'etant pas fondamentalement 
+different mais ajoutant des tas de possibilites). En gros : ne vous embarquez pas tout de suite dans HTML5 et CSS3.
+Faites-moi confiance, quand vous saurez les bases, le reste ira comme sur des roulettes :p
+
+- Je rappelle egalement que nous faisons une initiation, et qu'il ne vous sera pas demande quelque chose de trop complique : 
+le but est que vous captiez la logique du langage en mettant un peu les mains dans le code ! 
+Apres, si vous voulez faire du responsive design, "great", c'est un plus, je vous y encourage vivement, mais par la suite.
+La ca ne vous est pas demande pour l'exercice. 
+
+[Petit +] A propos du responsive design, j'ai trouve un petit commentaire d'un gars qui explique qu'il utilise meme XHTML 
+pour faire du responsive design… bon, pourquoi pas, culturellement c'est interessant.  Je suis d'accord que quand on voit le site, 
+ca ne fait pas trop rever, mais comme quoi, c'est tellement puissant que meme ca on peut le faire ! 
+- http://stackoverflow.com/questions/11839596/can-you-use-xhtml-to-do-responsive-site

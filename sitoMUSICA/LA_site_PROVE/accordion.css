@@ -1,0 +1,102 @@
+/*
+
+#COAD {                         /*    Album "Comme on a dit"  
+    margin-left:70px
+}
+
+#APTC {                         /*  Album "A plus tard crocodile"   
+    margin-left:120px
+}
+
+
+                        /*          ACCORDION          
+.accordion {
+    width:70%;
+    height:150px;
+    margin:10px 20px auto;
+    padding:10px;
+    font-family:"trebuchet ms";
+    font-size:x-small
+    } 
+
+.accordion section{   
+          float:left;  
+          background:#413D3D;  
+          margin:3px;   
+    }
+
+  
+    .accordion section p {   
+      display:none;   
+}
+     
+   
+    .accordion section:target {   
+      background:white;   
+      padding:10px;  
+} 
+ 
+ .accordion section:target h2 a{   
+      color:#CC0066;   
+      padding:0;  
+}  
+
+
+  
+.accordion section:target p {  
+      display:block;  
+}
+
+
+.accordion section h2 a{  
+      padding:8px 10px;  
+      display:block; 
+      color:#DCDCDC; 
+      }
+
+
+
+.horizontal section{   
+      width:7%;   
+      height:170px;   
+      -moz-transition: width 0.2s ease-out;   
+      -webkit-transition:width 0.2s ease-out;  
+      -o-transition:width 0.2s ease-out
+} 
+
+
+.horizontal section:after{  
+      top:140px;  
+      left:15px;  
+}
+
+
+
+.horizontal section h2 {   
+     -webkit-transform:rotate(90deg);  
+     -moz-transform:rotate(90deg);  
+     -o-transform: rotate(90deg);
+     width:240px;   
+     position:relative;   
+     left:-100px;   
+     top:85px;  
+} 
+
+.horizontal :target{   
+     width:73%;  
+     height:230px;   
+}  
+
+.horizontal :target h2{   
+     top:0px;  
+     left:0;  
+     -webkit-transform:rotate(0deg);  
+     -moz-transform:rotate(0deg);  
+     -o-transform: rotate(0deg) 
+}
+
+
+*/
+ 
+ 
+ 

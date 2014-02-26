@@ -1,0 +1,65 @@
+#menu *{
+    list-style-type:none  /*No punti a lista*/
+}
+ 
+#menu li
+{
+    display:block;
+    float: left;                         /*Menu orizzontale (block + left)  o semplicemente: display:inline*/
+    
+    width:150px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right:5px;
+    padding-left:5px;
+    text-align:center;
+    color:#DCDCDC;
+    font-family:georgia;
+    font-size:medium
+    
+}
+
+
+
+#menu li a{
+    text-decoration:none;
+    ;
+    color:#DCDCDC                                    /*Link non sottolineato*/    
+    
+}
+
+
+#menu li ul{
+    display:none        /*Si vede solo il primo livello*/
+    
+}
+
+
+#menu li:hover ul{
+    display:block;
+    /*Quando passi sopra col mouse si vedono gli altri livelli*/
+    
+    }
+
+#menu li ul li{
+    width:65px;
+    font-size:small
+              
+    }
+  
+#menu li ul li ul li{
+    display:none
+}
+
+#menu li ul li:hover ul li{
+    display:block;
+    width:200px;
+    font-size:small;
+    text-align:left;
+    padding-bottom:5px
+    
+}
+
+#menu ul{ 
+    padding:0px                         /*magia che fa apparire i cosi sotto*/
+}
