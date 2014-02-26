@@ -1,0 +1,76 @@
+body{
+    background-color:#373333
+}
+
+
+#menu *{
+    list-style-type:none                    /*Pas de points à la liste*/
+}
+
+
+#menu li a{
+    text-decoration:none;                          /*Pas de souslignement aux links*/    
+    color:white                                     
+}
+#menu ul {
+    padding:15px
+}
+#menu li {
+    display:inline-block;               /*pour afficher en horizontal comme si c'etaient des elements inline*/
+    width:150px;
+    text-align: center;
+    padding:4px;
+    color:white;
+    font-size:1em
+}
+
+
+#menu ul {
+    position:absolute;                         /*pour que les elements ne bougent pas par rapport au mouvement des autres*/         
+    left:-999em                                /*pour ne pas afficher*/
+}
+
+#menu li:hover ul {
+    left:auto                                  /*pour afficher*/
+}
+
+
+#menu li ul li{                                     /*style du sous-menu*/
+    display:inline-block;
+    background:url(fond_liste.jpg) bottom;
+    width:150px;
+    padding:10px;
+    color:white;
+    font-size:0.9em    
+}
+
+#menu li ul li{                                     /*ajouster  ?!?!?!? la position*/
+    position:relative;
+    right:33%
+}
+
+#menu li ul li ul{
+    position:absolute;                              /*ne pas afficher*/
+    display:none
+}
+
+#menu li ul li:hover ul{                            /*afficher au passage de la souris*/
+    display:block
+}
+
+#menu li ul li ul li{                                     /*style du sous-sous-menu*/
+    background:url(fond_liste.jpg) bottom;
+    width:150px;
+    padding:10px;
+    margin:3px;
+    color:white;
+    font-size:inherit    
+}
+
+#menu li ul li ul li{                               /*ajouster  ?!?!?!? la position*/
+    position:relative;
+    right:16%
+}
+
+
+
